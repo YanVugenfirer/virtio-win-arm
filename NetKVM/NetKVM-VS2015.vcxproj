@@ -104,6 +104,7 @@
     <DEP_LIB_PATH>objchk_win10_x86\i386</DEP_LIB_PATH>
     <SourceInfFile>netkvm.inf</SourceInfFile>
     <InstallRoot>$(ProjectDir)Install_Debug</InstallRoot>
+    <DriverTargetPlatform>Universal</DriverTargetPlatform>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win10 Release|Win32'" Label="Configuration">
     <TargetVersion>Windows10</TargetVersion>
@@ -115,6 +116,7 @@
     <DEP_LIB_PATH>objfre_win10_x86\i386</DEP_LIB_PATH>
     <SourceInfFile>netkvm.inf</SourceInfFile>
     <InstallRoot>$(ProjectDir)Install</InstallRoot>
+    <DriverTargetPlatform>Universal</DriverTargetPlatform>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Release|Win32'" Label="Configuration">
     <TargetVersion>Windows7</TargetVersion>
@@ -220,6 +222,7 @@
     <DEP_LIB_PATH>objchk_win10_amd64\amd64</DEP_LIB_PATH>
     <SourceInfFile>netkvm.inf</SourceInfFile>
     <InstallRoot>$(ProjectDir)Install_Debug</InstallRoot>
+    <DriverTargetPlatform>Universal</DriverTargetPlatform>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win10 Release|x64'" Label="Configuration">
     <TargetVersion>Windows10</TargetVersion>
@@ -231,6 +234,7 @@
     <DEP_LIB_PATH>objfre_win10_amd64\amd64</DEP_LIB_PATH>
     <SourceInfFile>netkvm.inf</SourceInfFile>
     <InstallRoot>$(ProjectDir)Install</InstallRoot>
+    <DriverTargetPlatform>Universal</DriverTargetPlatform>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Release|x64'" Label="Configuration">
     <TargetVersion>Windows7</TargetVersion>
