@@ -179,7 +179,7 @@
   <PropertyGroup Label="PropertySheets" Condition="'$(PlatformToolset)'!='v140_xp'">
     <ConfigurationType>Driver</ConfigurationType>
     <DriverType>KMDF</DriverType>
-    <DriverTargetPlatform>Desktop</DriverTargetPlatform>
+    <DriverTargetPlatform>Universal</DriverTargetPlatform>
   </PropertyGroup>
   <PropertyGroup Label="PropertySheets" Condition="'$(PlatformToolset)'=='v140_xp'">
     <UseLegacyDDK>true</UseLegacyDDK>
